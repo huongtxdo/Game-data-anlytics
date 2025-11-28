@@ -25,3 +25,19 @@ Columns:
     revenue: Revenue (int64)
     testgroup: Test group (object)
 Description: This dataset provides insights into A/B test results, including revenue and group allocation for each user. It is clean and ready for analysis.
+
+# Steps to reproduce
+1. Download the datasets from the link above and place them in the data/raw
+2. Set up the project environemtn
+   ```
+   python -m venv venv
+   ```
+3. Activate it
+    ```
+    venv\Scripts\activate
+    ```
+4. Install packages
+    ```
+    pip install pandas numpy jupyter matplotlib
+    ```
+5. Run notebooks
