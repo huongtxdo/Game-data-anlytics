@@ -49,16 +49,14 @@ The last goal is discussed in 03_event_success_metrics.ipynb.
 
 # Steps to reproduce
 1. Download the datasets from the link above and place them in the data/raw
-2. Set up the project environemtn
+2. Create and activate a virtual environement
+   - On Windows:
    ```
    python -m venv venv
+   venv\Scripts\activate
    ```
-3. Activate it
+3. Install project dependencies
     ```
-    venv\Scripts\activate
+    pip install -r requirements.txt
     ```
-4. Install packages
-    ```
-    pip install pandas numpy jupyter matplotlib
-    ```
-5. Run notebooks
+4. Run notebooks 
